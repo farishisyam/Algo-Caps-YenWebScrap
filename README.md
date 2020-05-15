@@ -9,3 +9,4 @@ This repository is for completing Data Analytics Capstone Project from Algoritma
 Hasil analisa dari grafik diatas: 
   - Kurs terrtinggi terjadi pada bulan Agustus - September
   - Kurs pada tanggal 1 Januari 2019 dan tanggal 31 Desember 2019, mengalami penurunan
+  - Kurs terendah terjadi pada bulan April
