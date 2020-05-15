@@ -39,7 +39,7 @@ def scrap(url):
 
     temp = temp[::-1] #remove the header
 
-    df = pd.DataFrame(temp, columns = ('Tanggal', 'Kurs Jual', 'Kurs Beli')) #creating the dataframe
+    df = pd.DataFrame(temp, columns = ('Tanggal', 'Kurs Beli', 'Kurs Jual')) #creating the dataframe
    #data wranggling -  try to change the data type to right data type
     df['Kurs Beli'] = df['Kurs Beli'].str.replace(",", ".")
     df['Kurs Jual'] = df['Kurs Jual'].str.replace(",", ".")
